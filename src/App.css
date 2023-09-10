@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.wrapper{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.main-header{
+  width: 100%;
+  padding: 15px;
+  background-color: crimson;
+}
+
+.main-menu{
+  display: flex;
+  gap: 15px;
+}
+
+.main-menu a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-menu .menu-item{
+  display: flex;
+  align-items: center;
+  gap : 8px;
+}
+
+.brand-link{
+  margin-left: auto; 
+  font-size: 24px;
+}
+
+.theCakeIsALie{
+  width: 100px;
+  margin-top: 12px;
+}
+
+.home, .servicios, .contacto{
+  text-align: center;
+  padding: 45px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  margin-top: 24px;
+}
+
+input, textarea{
+  padding: 8px;
+}
+
+button{
+  padding: 8px 16px;
+  width: 100px;
+  margin: 12px auto;
+  background-color: crimson;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+}
+
